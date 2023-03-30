@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include <stdlib.h>
 
 int heap_extract(heap_t **root);
 void recurse_extract(heap_t *tree);
